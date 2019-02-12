@@ -59,3 +59,65 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+/* Anchor tags */
+
+a:link {
+    text-decoration: inherit;
+}
+a:visited {
+    text-decoration: inherit;
+}
+
+/* Containers */
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.alignment-center {
+    align-items: center;
+}
+
+/* Navbar */
+
+nav {
+    margin: 20px 350px;
+}
+
+nav a {
+    margin: 0 20px;
+}
+
+.logo {
+    font-size: 20px;
+    color: black;
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn-signup {
+    /* background: #0a4f94; */
+    background: #197ee2;
+    color: white;
+}
+
+.btn-signup:hover {
+    background: #0a4f94;
+}
