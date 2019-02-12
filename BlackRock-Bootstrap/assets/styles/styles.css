@@ -64,10 +64,54 @@ html {
 
 a:link {
     text-decoration: inherit;
-    color: inherit
 }
 a:visited {
     text-decoration: inherit;
-    color: inherit;
 }
 
+/* Containers */
+
+.container {
+    display: flex;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.alignment-center {
+    align-items: center;
+}
+
+/* Navbar */
+
+nav {
+    margin: 20px 350px;
+}
+
+nav a {
+    margin: 0 20px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn-signup {
+    background: #0a4f94;
+    color: white;
+}
