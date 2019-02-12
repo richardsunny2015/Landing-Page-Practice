@@ -102,6 +102,7 @@ nav a {
 
 .logo {
     font-size: 20px;
+    color: black;
 }
 
 /* Buttons */
@@ -112,6 +113,11 @@ nav a {
 }
 
 .btn-signup {
-    background: #0a4f94;
+    /* background: #0a4f94; */
+    background: #197ee2;
     color: white;
+}
+
+.btn-signup:hover {
+    background: #0a4f94;
 }
