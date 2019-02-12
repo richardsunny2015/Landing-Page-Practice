@@ -59,3 +59,15 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+/* Anchor tags */
+
+a:link {
+    text-decoration: inherit;
+    color: inherit
+}
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
