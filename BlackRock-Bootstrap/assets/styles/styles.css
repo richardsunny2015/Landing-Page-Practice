@@ -95,7 +95,7 @@ h5 {
 /* Image tags */
 
 img {
-    width: 100%;
+    width: 100vw;
 }
 
 
@@ -106,7 +106,7 @@ img {
 }
 
 .one-third {
-    width: 33vw;
+    width: 29vw;
 }
 
 
@@ -120,9 +120,9 @@ img {
 
 .container {
     display: flex;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 100vw;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 
 .wrap {
@@ -164,16 +164,18 @@ img {
 /* Navbar */
 
 nav {
-    margin: 20px 350px;
+    padding: 1em 0;
+    width: 100vw;
 }
 
 nav a {
-    margin: 0 20px;
+    margin: 0 3em 0 0;
 }
 
 .logo {
     font-size: 20px;
     color: black;
+    margin-left: 3em;
 }
 
 /* Signup */
