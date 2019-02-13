@@ -106,6 +106,12 @@ img {
 }
 
 
+/* Typography */
+
+.bold {
+    font-weight: 700;
+}
+
 /* Containers */
 
 .container {
@@ -185,8 +191,9 @@ nav a {
 .sign-up input {
     width: 25%;
     margin-right: 20px;
-    padding: 1em;
+    padding: 11px;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 .sign-up .btn {
