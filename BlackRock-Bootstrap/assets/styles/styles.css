@@ -115,6 +115,10 @@ img {
     padding-right: 15px;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .column {
     flex-direction: column;
 }
@@ -137,6 +141,14 @@ img {
 
 .justify-center {
     justify-content: center;
+}
+
+.grow-two {
+    flex-grow: 2;
+}
+
+.grow-one {
+    flex-grow: 1;
 }
 
 /* Navbar */
@@ -168,6 +180,22 @@ nav a {
 .sign-up-text {
     color: white;
     margin: 20px auto;
+}
+
+.sign-up input {
+    width: 25%;
+    margin-right: 20px;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.sign-up .btn {
+    padding: 0.7em;
+    font-size: 1.3em;
+}
+
+.sign-up div {
+    margin-top: 3em;
 }
 
 /* Buttons */
