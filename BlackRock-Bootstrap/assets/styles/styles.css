@@ -261,6 +261,10 @@ nav a {
     margin-right: 3rem;
 }
 
+#description section {
+    background-color: #fbf8f8;
+}
+
 /* Buttons */
 
 .btn {
