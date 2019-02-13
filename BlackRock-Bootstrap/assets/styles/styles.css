@@ -32,6 +32,7 @@ body {
     line-height: 1;
     font-family: 'Lato', sans-serif;
     text-align: center;
+    width: 100vw;
 }
 ol, ul {
 	list-style: none;
@@ -78,6 +79,7 @@ h1 {
 
 h2 {
     font-size: 40px;
+    font-weight: 600;
 }
 
 h3 {
@@ -95,9 +97,15 @@ h5 {
 /* Image tags */
 
 img {
-    width: 100%;
+    width: 100vw;
 }
 
+/* P tags */
+
+p {
+    font-size: 1.5rem;
+    color: #6f6b71;
+}
 
 /* Widths */
 
@@ -106,7 +114,21 @@ img {
 }
 
 .one-third {
-    width: 33vw;
+    width: 29vw;
+} 
+
+/* Margins */
+
+.center {
+    margin: 0 auto;
+}
+
+.bottom-marg {
+    margin-bottom: 1em;
+}
+
+.left-marg {
+    margin-left: 1em;
 }
 
 
@@ -120,9 +142,9 @@ img {
 
 .container {
     display: flex;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 100vw;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 
 .wrap {
@@ -161,19 +183,25 @@ img {
     flex-grow: 1;
 }
 
+.align-left {
+    align-items: flex-start;
+}
+
 /* Navbar */
 
 nav {
-    margin: 20px 350px;
+    padding: 1em 0;
+    width: 100vw;
 }
 
 nav a {
-    margin: 0 20px;
+    margin: 0 3em 0 0;
 }
 
 .logo {
     font-size: 20px;
     color: black;
+    margin-left: 3em;
 }
 
 /* Signup */
@@ -221,12 +249,21 @@ nav a {
     margin-bottom: 2rem;
 }
 
-#summary p {
-    font-size: 1.5rem;
-    color: #6f6b71;
+
+/* Description */
+
+#description {
+    text-align: left;
 }
 
+#description h2, #description p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
 
+#description section {
+    background-color: #fbf8f8;
+}
 
 /* Buttons */
 
