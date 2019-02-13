@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 ol, ul {
 	list-style: none;
@@ -69,6 +70,48 @@ a:visited {
     text-decoration: inherit;
 }
 
+/* H tags */
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 10px;
+}
+
+/* Image tags */
+
+img {
+    width: 100%;
+}
+
+
+/* Widths */
+
+.half-width {
+    width: 50%;
+}
+
+
+/* Typography */
+
+.bold {
+    font-weight: 700;
+}
+
 /* Containers */
 
 .container {
@@ -76,6 +119,14 @@ a:visited {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
 }
 
 .space-between {
@@ -88,6 +139,22 @@ a:visited {
 
 .alignment-center {
     align-items: center;
+}
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.grow-two {
+    flex-grow: 2;
+}
+
+.grow-one {
+    flex-grow: 1;
 }
 
 /* Navbar */
@@ -103,6 +170,39 @@ nav a {
 .logo {
     font-size: 20px;
     color: black;
+}
+
+/* Signup */
+
+.sign-up {
+    background-image: url("../images/ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.sign-up-text {
+    color: white;
+    margin: 20px auto;
+}
+
+.sign-up input {
+    width: 25%;
+    margin-right: 20px;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.sign-up .btn {
+    padding: 0.7em;
+    font-size: 1.3em;
+}
+
+.sign-up div {
+    margin-top: 3em;
 }
 
 /* Buttons */
