@@ -294,19 +294,21 @@ nav a {
     height: 12rem;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
 }
 
 .margaret {
     background-image: url("../images/margaret.jpeg");
+    background-position: 0 0;
 }
 
 .fred {
     background-image: url("../images/fred.jpg");
+    background-position: 92% 0;
 }
 
 .sarah {
     background-image: url("../images/sarah.jpg");
+    background-position: 80% 0%;
 }
 
 /* Buttons */
