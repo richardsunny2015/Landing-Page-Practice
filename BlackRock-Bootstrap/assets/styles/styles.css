@@ -339,6 +339,15 @@ nav {
 
 /* Footer */
 
+#footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.social-links {
+    width: 10vw;
+}
+
 .social-links .icon {
    font-size: 2rem; 
 }
