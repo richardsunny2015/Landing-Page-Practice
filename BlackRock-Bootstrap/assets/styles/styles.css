@@ -265,6 +265,29 @@ nav a {
     background-color: #fbf8f8;
 }
 
+/* Testimonials */
+
+.profile-img {
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.margaret {
+    background-image: url("../images/margaret.jpeg");
+}
+
+.fred {
+    background-image: url("../images/fred.jpg");
+}
+
+.sarah {
+    background-image: url("../images/sarah.jpg");
+}
+
 /* Buttons */
 
 .btn {
