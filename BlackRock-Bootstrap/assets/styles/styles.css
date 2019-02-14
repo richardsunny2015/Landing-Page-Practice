@@ -329,6 +329,12 @@ nav a {
     background: #0a4f94;
 }
 
+/* Bottom Sign-up */
+
+#bottom-sign-up {
+    padding: 8rem 0;
+}
+
 /* Icons */
 
 .icon {
