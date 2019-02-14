@@ -335,6 +335,28 @@ nav a {
     padding: 8rem 0;
 }
 
+/* Footer */
+
+.social-links .icon {
+   font-size: 2rem; 
+}
+
+.bottom-nav {
+    width: 20vw;
+    display: inline-block;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.bottom-nav p {
+    font-size: 1rem;
+}
+
+
+/* .bottom-nav li {
+    display: inline-block;
+} */
+
 /* Icons */
 
 .icon {
