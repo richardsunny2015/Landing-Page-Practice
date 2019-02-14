@@ -294,6 +294,7 @@ nav a {
     height: 12rem;
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 0 0.3rem 1rem #6f6b71;
 }
 
 .margaret {
