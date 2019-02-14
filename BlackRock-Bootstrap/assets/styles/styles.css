@@ -32,7 +32,6 @@ body {
     line-height: 1;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    width: 100vw;
 }
 ol, ul {
 	list-style: none;
@@ -267,7 +266,28 @@ nav {
 }
 
 #description section {
+    width: 50vw;
     background-color: #fbf8f8;
+}
+
+.desc-photos {
+    height: 50vh;
+    width: 50vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#phone {
+    background-image: url("../images/phone.jpg")
+}
+
+#kid {
+    background-image: url(../images/kid.jpg)
+}
+
+#computer {
+    background-image: url(../images/computer.jpg)
 }
 
 /* Testimonials */
