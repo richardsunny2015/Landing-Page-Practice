@@ -84,14 +84,17 @@ h2 {
 
 h3 {
     font-size: 30px;
+    font-weight: 600;
 }
 
 h4 {
     font-size: 20px;
+    font-weight: 600;
 }
 
 h5 {
     font-size: 10px;
+    font-weight: 600;
 }
 
 /* Image tags */
@@ -266,6 +269,24 @@ nav a {
 }
 
 /* Testimonials */
+
+#testimonials h3 {
+    margin: 4rem auto;
+}
+
+.testimonial {
+    margin-bottom: 4rem;
+    width: 21rem;
+}
+
+.testimonial h4 {
+    margin: 1rem auto;
+}
+
+.testimonial p {
+    font-size: 1.1rem;
+    width: 15rem;
+}
 
 .profile-img {
     border-radius: 50%;
