@@ -113,7 +113,7 @@ p {
 /* Widths */
 
 .half-width {
-    width: 50%;
+    width: 50vw;
 }
 
 .one-third {
@@ -250,6 +250,10 @@ nav {
     margin-bottom: 2rem;
 }
 
+#summary p {
+    margin: 0 auto;
+    width: 20rem;
+}
 
 /* Description */
 
