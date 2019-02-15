@@ -198,6 +198,7 @@ nav {
     background-position: center;
     padding-top: 12rem;
     padding-bottom: 12rem;
+    text-align: center;
 }
 
 .sign-up-text {
@@ -222,18 +223,19 @@ nav {
 }
 
 @media only screen and (max-width: 578px) {
-    .sign-up .btn {
-        margin: 0;
-        width: 100%;
+    .sign-up .btn, #bottom-sign-up .btn {
+        margin: 0 auto;
+        width: 80%;
     }
     .sign-up input {
-        margin: 0 0 1em 0;
-        width: 100%;
+        margin: 0 auto 1em auto;
+        width: 80%;
     }
 }
 
 .sign-up div {
     margin-top: 3em;
+    width: 100%;
 }
 
 /* Summary */
@@ -399,6 +401,12 @@ nav {
     font-size: 1rem;
 }
 
+@media only screen and (max-width: 660px) {
+    .social-links {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
 
 /* Icons */
 
