@@ -135,6 +135,10 @@ p {
     flex-wrap: wrap;
 }
 
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
 .column {
     flex-direction: column;
 }
@@ -270,11 +274,20 @@ nav {
 }
 
 .desc-photos {
-    height: 50vh;
+    height: 36rem;
     width: 50%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-width: 748px) {
+    .desc-photos {
+        width: 100%;
+    }
+    #description section {
+        width: 100%;
+    }
 }
 
 #phone {
