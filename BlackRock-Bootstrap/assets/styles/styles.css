@@ -96,11 +96,6 @@ h5 {
     font-weight: 600;
 }
 
-/* Image tags */
-
-img {
-    width: 100vw;
-}
 
 /* P tags */
 
@@ -108,16 +103,6 @@ p {
     font-size: 1.5rem;
     color: #6f6b71;
 }
-
-/* Widths */
-
-.half-width {
-    width: 50vw;
-}
-
-.one-third {
-    width: 33vw;
-} 
 
 /* Margins */
 
@@ -144,13 +129,14 @@ p {
 
 .container {
     display: flex;
-    /* width: 100vw; */
-    /* padding-left: 15px;
-    padding-right: 15px; */
 }
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
 }
 
 .column {
@@ -193,7 +179,6 @@ p {
 
 nav {
     padding: 1em 0;
-    /* width: 100vw; */
 }
 
 
@@ -213,16 +198,18 @@ nav {
     background-position: center;
     padding-top: 12rem;
     padding-bottom: 12rem;
+    text-align: center;
 }
 
 .sign-up-text {
     color: white;
-    margin: 20px auto;
+    margin: 2rem auto;
+    width: 50%;
 }
 
 .sign-up input {
-    width: 25vw;
-    margin-right: 20px;
+    width: 25rem;
+    margin: 0 2rem 1rem 2rem;
     padding: 11px;
     border-radius: 5px;
     font-size: 20px;
@@ -231,10 +218,30 @@ nav {
 .sign-up .btn {
     padding: 0.7em;
     font-size: 1.3em;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 578px) {
+    h1, h2, h3, h4, h5 {
+        font-size: 2rem;
+    }
+    .sign-up {
+        padding: 10% 0;
+    }
+    .sign-up .btn, #bottom-sign-up .btn {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .sign-up input {
+        margin: 0 auto 1em auto;
+        width: 80%;
+    }
 }
 
 .sign-up div {
     margin-top: 3em;
+    width: 100%;
 }
 
 /* Summary */
@@ -254,6 +261,10 @@ nav {
     width: 20rem;
 }
 
+.sum-desc {
+    margin: 2rem;
+}
+
 /* Description */
 
 #description {
@@ -266,16 +277,24 @@ nav {
 }
 
 #description section {
-    width: 50vw;
+    width: 50%;
+    height: 36rem;
     background-color: #fbf8f8;
 }
 
 .desc-photos {
-    height: 50vh;
-    width: 50vw;
+    height: 36rem;
+    width: 50%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-width: 748px) {
+    .desc-photos, #description section {
+        height: 23rem;
+        width: 100%;
+    }
 }
 
 #phone {
@@ -365,24 +384,44 @@ nav {
 }
 
 .social-links {
-    width: 10vw;
+    width: 10%;
+
 }
 
 .social-links .icon {
    font-size: 2rem; 
+   margin-left: 1rem;
+   margin-right: 1rem;
 }
 
 .bottom-nav {
     width: 25rem;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
+    
 }
 
 .bottom-nav p {
     font-size: 1rem;
 }
 
+@media only screen and (max-width: 660px) {
+    .social-links {
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .bottom-nav a {
+        padding-top: 5%;
+        width: 50%;
+    }
+    #footer {
+        padding: 2em 0;
+    }
+}
 
 /* Icons */
 
