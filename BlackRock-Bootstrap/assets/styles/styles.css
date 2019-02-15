@@ -291,10 +291,8 @@ nav {
 }
 
 @media only screen and (max-width: 748px) {
-    .desc-photos {
-        width: 100%;
-    }
-    #description section {
+    .desc-photos, #description section {
+        height: 23rem;
         width: 100%;
     }
 }
