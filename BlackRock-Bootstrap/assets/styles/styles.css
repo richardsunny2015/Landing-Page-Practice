@@ -392,9 +392,10 @@ nav {
 
 .bottom-nav {
     width: 25rem;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
+    
 }
 
 .bottom-nav p {
@@ -405,6 +406,16 @@ nav {
     .social-links {
         width: 100%;
         margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .bottom-nav a {
+        padding-top: 5%;
+        width: 50%;
+    }
+    #footer {
+        padding: 2em 0;
     }
 }
 
