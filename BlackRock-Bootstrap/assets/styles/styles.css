@@ -96,11 +96,6 @@ h5 {
     font-weight: 600;
 }
 
-/* Image tags */
-
-img {
-    width: 100vw;
-}
 
 /* P tags */
 
@@ -108,16 +103,6 @@ p {
     font-size: 1.5rem;
     color: #6f6b71;
 }
-
-/* Widths */
-
-.half-width {
-    width: 50vw;
-}
-
-.one-third {
-    width: 33vw;
-} 
 
 /* Margins */
 
@@ -144,9 +129,6 @@ p {
 
 .container {
     display: flex;
-    /* width: 100vw; */
-    /* padding-left: 15px;
-    padding-right: 15px; */
 }
 
 .wrap {
@@ -193,7 +175,6 @@ p {
 
 nav {
     padding: 1em 0;
-    /* width: 100vw; */
 }
 
 
@@ -217,7 +198,8 @@ nav {
 
 .sign-up-text {
     color: white;
-    margin: 20px auto;
+    margin: 2rem auto;
+    width: 50%;
 }
 
 .sign-up input {
@@ -283,13 +265,13 @@ nav {
 }
 
 #description section {
-    width: 50vw;
+    width: 50%;
     background-color: #fbf8f8;
 }
 
 .desc-photos {
     height: 50vh;
-    width: 50vw;
+    width: 50%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -382,7 +364,7 @@ nav {
 }
 
 .social-links {
-    width: 10vw;
+    width: 10%;
 }
 
 .social-links .icon {
